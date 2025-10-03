@@ -9,7 +9,7 @@ body{
   color:#fff;
 }
 
-h1,h2,h3,h4,h5,h6,p,li{ margin-left:15px; }
+h1,h2,h3,h4,h5,h6,p,li,.h4{ margin-left:15px; }
 
 /* Wrapper */
 #wrapper{
@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6,p,li{ margin-left:15px; }
 
 /* Header + nav */
 header{ background: rgba(255,255,255,0.06); padding:10px 0; border-radius:6px; margin-bottom:10px; }
-nav h4{ margin:6px 0 8px 15px; }
+nav .h4{ margin:6px 0 8px 15px; }
 nav a{ color:#fff; text-decoration:none; padding:5px 10px; border-radius:4px; }
 nav a:hover{ background:#9d50bb; }
 
