@@ -1,0 +1,12 @@
+/* Tablet view: keep linear gradient, smaller video, fluid width */
+body{
+  font-size: 16px;
+  background: linear-gradient(to right, #4facfe, #9d50bb);
+}
+
+footer{
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+}
+
+#wrapper{ width:95%; }
+video{ width:80%; }

@@ -1,0 +1,17 @@
+/* Adobe Color Scheme :
+   #4facfe (blue), #9d50bb (purple), #ff7e5f (orange), #feb47b (peach), #f8ffae (yellow-green)
+*/
+
+/* Linear gradient for the page on laptops */
+body{
+  font-size: 18px;
+  background: linear-gradient(to right, #4facfe, #9d50bb);
+}
+
+/* Diagonal (angled) gradient for the footer — satisfies “angle gradient” */
+footer{
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+}
+
+#wrapper{ width:90%; max-width:1200px; margin:auto; }
+video{ width:480px; }

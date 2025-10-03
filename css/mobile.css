@@ -1,0 +1,15 @@
+/* Phones: vertical gradient looks nice on small screens */
+body{
+  font-size: 14px;
+  background: linear-gradient(to bottom, #4facfe, #9d50bb);
+}
+
+/* angled gradient stays the same so the footer pops */
+footer{
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+}
+
+/* full-width video; center nav text */
+video{ width:100%; }
+nav h4{ text-align:center; margin-left:0; }
+input[type="submit"]{ width:100%; }

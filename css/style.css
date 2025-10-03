@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* === Common/Base (applies to all devices) === */
+
+body{
+  /* no background here so device CSS can show gradients */
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  margin:0; padding:0;
+  color:#fff;
+}
+
+h1,h2,h3,h4,h5,h6,p,li{ margin-left:15px; }
+
+/* Wrapper */
+#wrapper{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.6);
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+/* Header + nav */
+header{ background: rgba(255,255,255,0.06); padding:10px 0; border-radius:6px; margin-bottom:10px; }
+nav h4{ margin:6px 0 8px 15px; }
+nav a{ color:#fff; text-decoration:none; padding:5px 10px; border-radius:4px; }
+nav a:hover{ background:#9d50bb; }
+
+/* Media */
+img.responsive{ max-width:100%; height:auto; display:block; margin:10px 15px; border-radius:6px; }
+video{ width:400px; max-width:100%; background:black; border:2px solid #fff; box-shadow:10px 10px 5px black; margin:15px; border-radius:6px; }
+
+/* Forms */
+label{ display:inline-block; margin-bottom:4px; }
+input[type="text"],input[type="email"],input[type="tel"],textarea{
+  width:100%; max-width:520px; padding:8px 10px; border:1px solid #ddd; border-radius:6px; color:#111;
+}
+textarea{ resize:vertical; }
+input[type="submit"]{ margin-top:8px; padding:8px 14px; border:none; border-radius:6px; background:#4facfe; color:#fff; cursor:pointer; }
+input[type="submit"]:hover{ background:#9d50bb; }
+
+/* Footer (we’ll add the angled gradient in device files) */
+footer{ color:#fff; text-align:center; padding:10px; border-radius:6px; margin-top:10px; }
+footer a{ color:#fff; text-decoration:underline; }
