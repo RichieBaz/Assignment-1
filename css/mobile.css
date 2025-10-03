@@ -12,4 +12,5 @@ footer{
 /* full-width video; center nav text */
 video{ width:100%; }
 nav h4{ text-align:center; margin-left:0; }
+nav .h4{ text-align:center; margin-left:0; }
 input[type="submit"]{ width:100%; }
